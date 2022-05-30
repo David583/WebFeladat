@@ -1,0 +1,41 @@
+#mainDiv {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    right: 0px;
+    top: 0px;
+}
+#sideDiv {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(13, 158, 13);
+    border-right: 10px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sideDiv ul {
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+}
+#sideDiv li {
+    list-style-type: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#sideDiv li:hover {
+    background-color: rgb(192, 192, 192);
+}
+#contentDiv {
+    width: 80%;
+    height: 100%;
+}
